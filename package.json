@@ -1,0 +1,21 @@
+{
+  "name": "fp-js",
+  "version": "1.0.0",
+  "description": "Functional Programming in JavaScript",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakila/functional-workshop.git"
+  },
+  "keywords": [
+    "Functional Programming",
+    "JavaScript"
+  ],
+  "author": "whichxjy",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^7.1.0"
+  }
+}
