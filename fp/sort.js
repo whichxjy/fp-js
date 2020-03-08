@@ -41,9 +41,9 @@ const mergeSort = (lst) => {
     } else if (isEmpty(rhs)) {
       return lhs
     } else if (first(lhs) < first(rhs)) {
-      return append([first(lhs)], merge(rest(lhs), rhs))
+      return cons(first(lhs), merge(rest(lhs), rhs))
     } else {
-      return append([first(rhs)], merge(lhs, rest(rhs)))
+      return cons(first(rhs), merge(lhs, rest(rhs)))
     }
   }
 
